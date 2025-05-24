@@ -5,7 +5,7 @@ async function fetchUsers() {
     list.innerHTML = "";
     users.forEach(user => {
         const li = document.createElement("li");
-        li.textContent = `${user.name} (ID: ${user.id})`;
+        li.textContent = `${user.name}`;
 
         const delBtn = document.createElement("button");
         delBtn.textContent = "Löschen";

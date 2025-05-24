@@ -2,6 +2,8 @@
 
 Eine einfache Einkaufslisten-App mit Express-Backend und minimalem Frontend.
 
+![Shopping List Screenshot](./public/Screenshot%202025-05-24%20at%209.58.27.png)
+
 ## Funktionen
 
 - Nutzer hinzufügen (Name eingeben, Button klicken)

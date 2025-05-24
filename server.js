@@ -49,5 +49,5 @@ app.delete("/api/users/:id", (req, res) => {
 app.use("/ui", express.static("public"));
 
 app.listen(PORT, () => {
-    console.log(`Server läuft auf http://localhost:${PORT}`);
+    console.log(`Server läuft auf http://localhost:${PORT}/ui`);
 });
